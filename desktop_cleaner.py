@@ -5,6 +5,7 @@ from win32com.client import Dispatch
 # Get Desktop Path
 desktop = os.path.join(os.path.join(os.environ['USERPROFILE']), 'Desktop')
 
+
 # Define category folders, Others as default
 category_folders = {
     'Documents_others': os.path.join(desktop, 'Others'),
@@ -33,7 +34,7 @@ for category, folder in category_folders.items():
     category_folders[category] = result_path
 
 # set app not to be moved
-not_moved_program = set()
+not_moved_program = {'desktop_cleaner.exe', 'desktop_cleaner.txt'}
 
 # first number if the number of apps
 not_moved_program_numbers = int(lines[i])
