@@ -1,0 +1,22 @@
+6
+Documents: os.path.join(desktop, 'Documents')
+Documents_pdf: os.path.join(os.path.join(desktop, 'Documents'), 'pdf')
+Documents_docx: os.path.join(os.path.join(desktop, 'Documents'), 'docx')
+Documents_txt: os.path.join(os.path.join(desktop, 'Documents'), 'txt')
+Documents_others: os.path.join(os.path.join(desktop, 'Documents'), 'others')
+Paper: os.path.join(desktop, 'Paper')
+10
+PyCharm Community Edition 2024.1.4
+Brave
+desktop_cleaner.py
+iTop Easy Desktop
+桌面 (OneDrive - 個人) 的捷徑.lnk
+資源回收筒
+DeepL.lnk
+PC-cillin 防毒版.lnk
+Chrome 遠端桌面.lnk
+趨勢科技安心 Pay.lnk
+3
+Documents_pdf:.pdf
+Documents_txt:.txt
+Documents_docx:.docx
