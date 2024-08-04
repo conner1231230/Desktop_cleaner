@@ -34,7 +34,7 @@ for category, folder in category_folders.items():
     category_folders[category] = result_path
 
 # set app not to be moved
-not_moved_program = {'desktop_cleaner.exe', 'desktop_cleaner.txt'}
+not_moved_program = {'desktop_cleaner.exe', 'desktop_cleaner.txt', 'desktop_cleaner.py'}
 
 # first number if the number of apps
 not_moved_program_numbers = int(lines[i])
@@ -88,3 +88,5 @@ for item in desktop_items:
         # check it is done or not
         if moved == False:
             shutil.move(item_path, category_folders['Documents_others'])
+
+input("enter to exit")
